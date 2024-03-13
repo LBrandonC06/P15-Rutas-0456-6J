@@ -8,7 +8,7 @@ class Pantalla2_0456 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Pantalla 2 Cristobal'),
-        backgroundColor: Color(0xff094e87),
+        backgroundColor: Color(0xff09875c),
       ),
       body: Center(
         child: Container(
@@ -16,7 +16,7 @@ class Pantalla2_0456 extends StatelessWidget {
           width: double.infinity,
           height: 350,
           child: const Card(
-            color: Colors.blue,
+            color: Color(0xff0d9881),
             margin: EdgeInsets.all(32),
             child: Padding(
               padding: EdgeInsets.all(72),

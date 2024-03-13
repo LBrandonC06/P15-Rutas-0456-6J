@@ -8,7 +8,7 @@ class PantallaIni_0456 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Paguina Inicial Cristobal"),
-        backgroundColor: Colors.cyan,
+        backgroundColor: Color(0xff125186),
       ),
       body: Center(
         child: Column(
@@ -25,6 +25,12 @@ class PantallaIni_0456 extends StatelessWidget {
                 Navigator.pushNamed(context, "/Pantalla2_0456");
               },
               child: const Text("Mover a paguina 2"),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, "/Pantalla3_0456");
+              },
+              child: const Text("Mover a paguina 3"),
             )
           ], // Children
         ),

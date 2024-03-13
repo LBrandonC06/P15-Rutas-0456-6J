@@ -8,11 +8,11 @@ class Pantalla1_0456 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Paguina 1 Cristobal"),
-        backgroundColor: Color(0xff1d8409),
+        backgroundColor: Color(0x9f098479),
       ),
       body: const Center(
         child: Card(
-          color: Colors.grey,
+          color: Colors.blue,
           child: Padding(
             padding: EdgeInsets.all(16),
             child: Text(
